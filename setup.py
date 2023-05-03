@@ -1,6 +1,9 @@
 from setuptools import setup, find_packages
 import sys
 
+with open('LICENSE', encoding='utf8') as f:
+    license = f.read()
+
 with open('requirements.txt') as f:
     reqs = f.read()
 
